@@ -5,12 +5,11 @@
     padding: 0px;
 }
 
-body, html{
+body{
     
     background-image: linear-gradient(to top, #dee075c2, #e6e934);
-    background-size: cover;
     height: 100vh;
-    width: 100vw;
+    
 }
 
 main {
