@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 600x) and (max-width: 992px) {
+@media screen and (min-width: 1080x) and (max-width: 1300px) {
 
 
 
@@ -35,7 +35,7 @@ section#login > div#imagem {
 
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1300px) {
 
    
 
