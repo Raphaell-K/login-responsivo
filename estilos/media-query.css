@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+body{ 
+        background-image: linear-gradient(to top, #dee075c2, #e6e934)
+    }
+
+section#login {
+
+    width: 70vw;
+    height: 50vh;
+
+}
+
+section#login > div#formulario {
+
+    float: right;
+    width: 50%;
+    height: 100vh;
+    position: relative;
+    top: 30%;
+    
+
+}
+
+section#login > div#imagem {
+
+    float: left;
+    width: 45%;
+    height: 70vh;
+    background-size: cover;
+    position: center,  center;
+
+}
+
+
+}
+
+@media screen and (min-width: 992px) {
+
+    body{ 
+        background-image: linear-gradient(to top, #dee075c2, #e6e934)
+    
+        
+    }
+
+    section#login {
+
+        width: 70vw;
+        height: 50vh;
+    
+    }
+    
+     #ipass, #iemail{
+
+        width: 80%;
+
+     }
+     #porta, #esquecisenha, h1, p{
+
+        position: relative;
+        left: -10%;
+
+
+     }
+    section#login > div#formulario {
+    
+        float: right;
+        width: 60%;
+        height: 100vh;
+        position: relative;
+        top: 30%;
+        right: -10%;
+        transform: translate(-10%);
+        
+    
+    }
+    
+    section#login > div#imagem {
+    
+        float: left;
+        width: 40%;
+        height: 70vh;
+        background-size: cover;
+        position: center,  center;
+    
+    }
+
+
+
+}

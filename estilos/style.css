@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html{
+    
+    background-image: linear-gradient(to top, #dee075c2, #e6e934);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    
+    position: relative;
+    height: 80vh;
+    width: 100vw;
+}
+
+section#login { 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 20px;
+    height: 380px;
+    box-shadow: 2px 2px 3px rgba(17, 17, 17, 0.418);
+    overflow: hidden;
+    
+}
+
+section#login > div#imagem {
+    background-image: url(../Login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center, center;
+    height: 200px;
+    
+}
+
+
+h1, p { 
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.9em;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+#ipass , #iemail{
+    width: 75%;
+    position: relative;
+    right: 50%;
+    left: 40%;
+    transform: translate(-50%, -40%);
+
+}
+
+.material-symbols-outlined {
+    color: rgba(0, 0, 255, 0.644);
+}
+
+
+#porta {
+    margin: auto;
+    display: block;
+    padding: 2px 5px;
+    width: 130px;
+
+    
+}
+
+#esquecisenha {
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: .8em;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+/*
+input{
+
+    width: 200px;
+    padding: 2px;
+    margin: 2px ;
+    position: relative;
+    right: -50%;
+    transform: translate(-50%);
+    
+}
+
+*/
