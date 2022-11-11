@@ -8,7 +8,9 @@
 body{
     
     background-image: linear-gradient(to top, #dee075c2, #e6e934);
+    
     height: 100vh;
+
     
 }
 
@@ -21,14 +23,14 @@ main {
 
 section#login { 
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background-color: white;
     border-radius: 20px;
     height: 380px;
     box-shadow: 2px 2px 3px rgba(17, 17, 17, 0.418);
     overflow: hidden;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     
 }
 
@@ -81,16 +83,4 @@ h1, p {
     margin-top: 5px;
 }
 
-/*
-input{
-
-    width: 200px;
-    padding: 2px;
-    margin: 2px ;
-    position: relative;
-    right: -50%;
-    transform: translate(-50%);
-    
-}
-
-*/
+ 
